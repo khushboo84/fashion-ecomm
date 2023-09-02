@@ -12,7 +12,7 @@ const ProductDetails = () => {
   });
 
   if (!product) {
-    <section className="h-screen flex justify-center items-center">
+    <section className="h-screen flex justify-center items-center ">
       Loading...
     </section>;
   }
@@ -20,7 +20,7 @@ const ProductDetails = () => {
   const { title, price, description, image } = product;
 
   return (
-    <section className="pt-32 pb-12 lg:py-32 h-screen">
+    <section className="pt-32 pb-12 lg:py-32 h-screen overflow-auto">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="flex flex-1 justify-center items-center mb-8 lg:mb-0">
