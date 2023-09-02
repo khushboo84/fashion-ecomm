@@ -25,7 +25,7 @@ const Header = () => {
         } fixed w-full z-10 transition-all`}
       >
         <div className="container mx-auto flex items-center justify-between">
-          <Link>
+          <Link to="/">
             <div>
               <img className="w-16" src={logo} alt="" />
             </div>
