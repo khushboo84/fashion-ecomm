@@ -9,7 +9,6 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: "30px",
-        lg: "0",
       },
     },
     screens: {
@@ -24,7 +23,7 @@ module.exports = {
         secondary: "#F5E6E0",
       },
       backgroundImage: {
-        hero: "url('/src/Assets/Background.jpg')",
+        hero: "url('/src/Assets/bg_hero.svg')",
       },
     },
   },
